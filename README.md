@@ -18,3 +18,5 @@ The Current Weather App provides users with real-time weather information for a 
 - Shows humidity and wind speed information.
 - Error handling for invalid city names.
 
+## Try It 
+[Weather-App](https://weather-app-mehrab.netlify.app/)
