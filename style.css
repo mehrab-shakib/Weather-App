@@ -131,5 +131,32 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
-  
+  @media only screen and (max-width: 768px) {
+    .card {
+        max-width: 100%;
+    }
+    .temp {
+        font-size: 60px;
+    }
+    .city {
+        font-size: 35px;
+    }
+    .humidity-value,
+    .wind-speed { 
+        font-size: 20px;
+    }
+    .card {
+        padding: 30px 25px;
+        margin: 50px auto 0;
+    }
+    .weather-icon {
+        width: 120px;
+        margin-top: 20px;
+    }
+    .details {
+        padding: 0 10px; 
+        margin-top: 30px;
+    }
+}
+
   /* api key 392bef52866cde2bda2a6bbf77f8bd91 */
