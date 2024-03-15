@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: kanit;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(132deg, #F4D03F 0%, #43cc68 50%, #a1e5bb 100%);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+.search {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc; 
+    color: #555;
+    padding: 10px 25px; 
+    height: 60px; 
+    border-radius: 30px; 
+    flex: 1;
+    margin-right: 16px; 
+    font-size: 15px; 
+}
+
+.srcBtn { 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+    background: #ebfffc; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px; 
+    cursor: pointer;
+}
+
+.img{
+    width: 15px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 30px;
+}
+.temp {
+    font-size: 80px;
+    font-weight: 400;
+}
+.city {
+    font-size: 45px;
+    font-weight: 300;
+    margin-top: -10px; 
+}
+
+.details {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px; 
+    margin-top: 50px;
+}
+.col {
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+
+  .col img {
+    width: 40px; 
+    margin-right: 10px;
+  }
+
+  .humidity-value,
+  .wind-speed { 
+    font-size: 28px;
+    margin-top: -6px;
+  }
+  .weather {
+    display: none;
+  }
+
+  .error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+  }
+
+  footer {
+    background-color: #3b554275; 
+    border-radius: 50px;
+    color: #b9f9ab; 
+    padding: 20px; 
+    margin-top: 50px;
+    text-align: center; 
+    align-items: center;
+    position: relative; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+  }
+  footer a {
+    color: #9de7fc;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* api key 392bef52866cde2bda2a6bbf77f8bd91 */

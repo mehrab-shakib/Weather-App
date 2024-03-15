@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input
+        class="rcvCity"
+          type="text"
+          placeholder="Enter Your City ..... "
+          spellcheck="false"
+        />
+        <buttton class="srcBtn"
+          ><img src="images/search.png" alt="Search" class="img"
+        /></buttton>
+
+      </div>
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <div class="weather">
+        <img src="images/rain.png" alt="" class="weather-icon">
+        <h1 class="temp">32° C</h1>
+        <h2 class="city">None</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" alt="humidity" class="humidity-icon">
+            <div>
+              <p class="humidity-value">65%</p>
+              <p>Humidity</p>
+            </div>
+          </div>
+
+  
+            <div class="col">
+              <img src="images/wind.png" alt="wind" class="wind-icon">
+              <div>
+                <p class="wind-speed">15 km/h</p>
+                <p>Wind Speed</p>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+      <footer class="footer">
+        <p>Developed by <a href="https://github.com/mehrab-shakib" target="_blank">mehrab-shakib</a></p>
+        <p> Get the <a href="https://github.com/mehrab-shakib/your-repo-name" target="_blank">source Code</a></p>
+      </footer>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
